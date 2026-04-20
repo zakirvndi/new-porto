@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, Variants } from "framer-motion";
-import { Code2, Monitor, Server, Database, Hammer, FileCheck } from "lucide-react";
+import { Code2, Monitor, Server, Database, Hammer, FileCheck, Rocket } from "lucide-react";
 import { skillCategories, certifications } from "@/features/portfolio/data";
 
 const categoryIcons: Record<string, React.ReactNode> = {
@@ -10,6 +10,7 @@ const categoryIcons: Record<string, React.ReactNode> = {
   "Backend Development": <Server size={18} />,
   Database: <Database size={18} />,
   Tools: <Hammer size={18} />,
+  "Currently Learning": <Rocket size={18} />,
 };
 
 export default function SkillsSection() {

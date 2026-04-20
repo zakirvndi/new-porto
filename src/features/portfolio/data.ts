@@ -54,15 +54,15 @@ export const education: Education = {
 export const skillCategories: SkillCategory[] = [
   {
     category: "Programming Languages",
-    skills: ["C", "C#", "Java", "Python", "JavaScript", "TypeScript"],
+    skills: ["C", "C#", "Python", "JavaScript", "TypeScript"],
   },
   {
     category: "Frontend Development",
-    skills: ["HTML", "CSS", "React", "Next.js", "Vue", "Tailwind CSS", "Bootstrap", "Ant Design"],
+    skills: ["HTML", "CSS", "React", "Next.js", "Vue", "Tailwind CSS", "Bootstrap", "Ant Design", "Shadcn UI"],
   },
   {
     category: "Backend Development",
-    skills: [".NET", "ASP.NET", "EF Core", "Dapper"],
+    skills: [".NET (ASP.NET Core, EF Core, Dapper)", "Supabase"],
   },
   {
     category: "Database",
@@ -71,6 +71,10 @@ export const skillCategories: SkillCategory[] = [
   {
     category: "Tools",
     skills: ["Git", "GitHub", "GitLab", "Figma"],
+  },
+  {
+    category: "Currently Learning",
+    skills: ["Go"],
   },
 ];
 
