@@ -20,7 +20,7 @@ export const socialLinks: SocialLink[] = [
 export const experiences: Experience[] = [
   {
     title: "Full Stack Developer Intern",
-    company: "Company",
+    company: "PT Accelist Lentera Indonesia",
     period: "Feb 2025 – Feb 2026",
     description: [
       "Developed and maintained backend systems using MVC and CQRS architectures",
@@ -33,7 +33,7 @@ export const experiences: Experience[] = [
   },
   {
     title: "Network Engineer Intern",
-    company: "Company",
+    company: "PT Nusantara Compnet Integrator",
     period: "Mar 2021 – May 2022",
     description: [
       "Performed preventive maintenance on network devices",
