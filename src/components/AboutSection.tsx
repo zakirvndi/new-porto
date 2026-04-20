@@ -10,7 +10,7 @@ interface Strength {
 }
 
 const strengths: Strength[] = [
-  { title: "CQRS Architecture & Clean Backend Design", icon: <Database size={16} /> },
+  { title: "MVC & CQRS Architecture With Clean Backend Design", icon: <Database size={16} /> },
   { title: "Full Stack Development (Frontend & Backend)", icon: <Layers size={16} /> },
   { title: "Scalable System Design Mindset", icon: <Maximize size={16} /> },
   { title: "Problem Solving & Analytical Thinking", icon: <Brain size={16} /> },
