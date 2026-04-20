@@ -64,7 +64,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section id="hero" className="min-h-screen relative flex items-center pt-20 overflow-hidden bg-[#f7f4ed]">
+    <section id="hero" className="min-h-screen relative flex items-center pt-28 md:pt-20 overflow-hidden bg-[#f7f4ed]">
       {/* Background decoration */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
         <div 

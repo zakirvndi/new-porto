@@ -87,13 +87,15 @@ export default function Navbar() {
           </nav>
 
           {/* Contact CTA */}
-          <a
-            href="#contact"
-            onClick={(e) => scrollToSection(e, "#contact")}
-            className="hidden md:block btn-primary px-5 py-2 rounded-full text-xs cursor-pointer"
-          >
-            Let's talk
-          </a>
+          <div className="hidden md:block">
+            <a
+              href="#contact"
+              onClick={(e) => scrollToSection(e, "#contact")}
+              className="btn-primary px-5 py-2 rounded-full text-xs cursor-pointer"
+            >
+              Let's talk
+            </a>
+          </div>
 
           {/* Mobile toggle */}
           <button
