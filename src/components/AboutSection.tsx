@@ -10,11 +10,11 @@ interface Strength {
 }
 
 const strengths: Strength[] = [
-  { title: "MVC & CQRS Architecture With Clean Backend Design", icon: <Database size={16} /> },
-  { title: "Full Stack Development (Frontend & Backend)", icon: <Layers size={16} /> },
-  { title: "Scalable System Design Mindset", icon: <Maximize size={16} /> },
-  { title: "Problem Solving & Analytical Thinking", icon: <Brain size={16} /> },
-  { title: "Leveraging AI for Code Quality & Development Efficiency", icon: <Sparkles size={16} /> },
+  { title: "Designing scalable and maintainable backend systems (MVC, CQRS)", icon: <Database size={16} /> },
+  { title: "Building end-to-end web applications (frontend to backend)", icon: <Layers size={16} /> },
+  { title: "Writing clean, efficient, and maintainable code", icon: <Maximize size={16} /> },
+  { title: "Solving complex problems with structured approaches", icon: <Brain size={16} /> },
+  { title: "Utilizing AI tools to enhance development speed and code quality", icon: <Sparkles size={16} /> },
 ];
 
 function StrengthItem({ title, icon }: Strength) {
