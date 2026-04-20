@@ -82,7 +82,7 @@ export default function HeroSection() {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="max-w-3xl"
+          className="max-w-3xl pb-32 md:pb-0"
         >
           {/* Badge */}
           <motion.div 
@@ -133,25 +133,29 @@ export default function HeroSection() {
             </a>
           </motion.div>
 
-          {/* Social Links */}
+          {/* Social Links & Location */}
           <motion.div 
             variants={itemVariants}
-            className="flex items-center gap-5"
+            className="flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-5"
           >
-            {socialLinks.map((link) => (
-              <motion.a
-                key={link.label}
-                href={link.href}
-                target={link.href.startsWith("mailto") ? undefined : "_blank"}
-                rel="noopener noreferrer"
-                whileHover={{ y: -5, opacity: 1 }}
-                whileTap={{ scale: 0.9 }}
-                className="w-12 h-12 flex items-center justify-center rounded-full border border-[#eceae4] text-muted hover:text-charcoal hover:border-[rgba(28,28,28,0.2)] transition-all duration-300 cursor-pointer bg-white/20"
-              >
-                {icons[link.icon]}
-              </motion.a>
-            ))}
-            <div className="h-px w-12 bg-[#eceae4]" />
+            <div className="flex items-center gap-4">
+              {socialLinks.map((link) => (
+                <motion.a
+                  key={link.label}
+                  href={link.href}
+                  target={link.href.startsWith("mailto") ? undefined : "_blank"}
+                  rel="noopener noreferrer"
+                  whileHover={{ y: -5, opacity: 1 }}
+                  whileTap={{ scale: 0.9 }}
+                  className="w-12 h-12 flex items-center justify-center rounded-full border border-[#eceae4] text-muted hover:text-charcoal hover:border-[rgba(28,28,28,0.2)] transition-all duration-300 cursor-pointer bg-white/20"
+                >
+                  {icons[link.icon]}
+                </motion.a>
+              ))}
+            </div>
+            
+            <div className="hidden md:block h-px w-12 bg-[#eceae4]" />
+            
             <div className="flex items-center gap-2 text-xs font-display text-muted/60 uppercase tracking-widest font-semibold">
               <MapPin size={14} />
               {profile.location}
@@ -160,14 +164,13 @@ export default function HeroSection() {
         </motion.div>
       </div>
 
-       {/* Scroll indicator */}
-       <motion.div 
+        <motion.div 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-muted"
+        className="absolute bottom-6 sm:bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5 text-muted/60"
       >
-        <span className="text-xs font-display uppercase tracking-widest">Scroll</span>
+        <span className="text-[10px] font-display uppercase tracking-widest font-bold">Scroll</span>
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
