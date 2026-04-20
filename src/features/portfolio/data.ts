@@ -4,17 +4,17 @@ export const profile = {
   name: "Muhammad Zaki Revandi",
   role: "Software Engineer",
   location: "Jakarta, Indonesia",
-  email: "zakirvndi@gmail.com",
+  email: "revandizaki183@gmail.com",
   github: "https://github.com/zakirvndi",
-  linkedin: "https://linkedin.com/in/zakirvndi",
+  linkedin: "https://linkedin.com/in/muhammad-zaki-revandi-a93654246",
   summary:
     "I am a fresh graduate in Software Engineering from BINUS University, with one year of experience as a Full Stack Developer Intern. I have been actively deepening my expertise in both front-end and back-end development through internships and online courses, with hands-on experience in C# (.NET) and JavaScript.\n\nI am a motivated and adaptable learner with strong problem-solving skills, eager to contribute to innovative and impactful technology solutions while continuously advancing my expertise in the field.",
 };
 
 export const socialLinks: SocialLink[] = [
   { label: "GitHub", href: "https://github.com/zakirvndi", icon: "github" },
-  { label: "LinkedIn", href: "https://linkedin.com/in/zakirvndi", icon: "linkedin" },
-  { label: "Email", href: "mailto:zakirvndi@gmail.com", icon: "mail" },
+  { label: "LinkedIn", href: "https://linkedin.com/in/muhammad-zaki-revandi-a93654246", icon: "linkedin" },
+  { label: "Email", href: "mailto:revandizaki183@gmail.com", icon: "mail" },
 ];
 
 export const experiences: Experience[] = [
