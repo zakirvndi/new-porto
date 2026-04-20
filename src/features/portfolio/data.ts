@@ -110,6 +110,22 @@ export const projects: Project[] = [
     ],
   },
   {
+    title: "Stockas",
+    description:
+      "Backend-focused system project built with MVC and CQRS architecture, emphasizing maintainability, scalability, and clean code structure.",
+    tech: [".NET", "MediatR", "FluentValidation", "CQRS"],
+    image: "/stockas/stockas1.png",
+    period: "Mar 2025 – Apr 2025",
+    highlights: [
+      "MVC and CQRS architecture",
+      "MediatR and FluentValidation implementation",
+      "Scalable backend design",
+      "Clean code and maintainability focus",
+    ],
+    githubUrl: "https://github.com/zakirvndi/stockas",
+    screenshots: ["/stockas/stockas1.png", "/stockas/stockas2.png", "/stockas/stockas3.png"],
+  },
+  {
     title: "Fiship",
     description:
       "Marketplace platform for fishermen to sell fish products online, featuring responsive design with product filtering and interactive UI elements.\n\nThis is University Project and built using vanilla code to strengthen the fundamentals of web development and provide a solid foundation.",
@@ -142,21 +158,5 @@ export const projects: Project[] = [
     ],
     githubUrl: "https://github.com/zakirvndi/workin",
     screenshots: ["/workin/workin1.png", "/workin/workin2.png"],
-  },
-  {
-    title: "Stockas",
-    description:
-      "Backend-focused system project built with MVC and CQRS architecture, emphasizing maintainability, scalability, and clean code structure.",
-    tech: [".NET", "MediatR", "FluentValidation", "CQRS"],
-    image: "/stockas/stockas1.png",
-    period: "Mar 2025 – Apr 2025",
-    highlights: [
-      "MVC and CQRS architecture",
-      "MediatR and FluentValidation implementation",
-      "Scalable backend design",
-      "Clean code and maintainability focus",
-    ],
-    githubUrl: "https://github.com/zakirvndi/stockas",
-    screenshots: ["/stockas/stockas1.png", "/stockas/stockas2.png", "/stockas/stockas3.png"],
   },
 ];
