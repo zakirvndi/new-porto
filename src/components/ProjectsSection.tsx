@@ -137,9 +137,11 @@ export default function ProjectsSection() {
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
-                    className="absolute top-6 right-6 p-2 rounded-full border border-[#eceae4] text-muted hover:text-[#fcfbf8] hover:bg-charcoal transition-all duration-200 cursor-pointer shadow-sm hover:shadow-md"
+                    className="absolute top-6 right-6 p-2 rounded-full border border-[#eceae4] text-muted hover:text-white hover:bg-charcoal transition-all duration-300 cursor-pointer shadow-sm hover:shadow-[0_0_20px_rgba(0,0,0,0.15)] hover:border-transparent group"
                   >
-                    <GithubIcon size={18} />
+                    <div className="transition-all duration-300 group-hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.9)] group-hover:scale-110">
+                      <GithubIcon size={18} />
+                    </div>
                   </a>
                 )}
 
@@ -258,9 +260,11 @@ export default function ProjectsSection() {
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
-                    className="absolute top-3 right-3 p-1.5 rounded-full bg-[#f7f4ed]/80 backdrop-blur-sm border border-[#eceae4] text-muted hover:text-[#fcfbf8] hover:bg-charcoal transition-all duration-200 cursor-pointer"
+                    className="absolute top-3 right-3 p-1.5 rounded-full bg-[#f7f4ed]/80 backdrop-blur-sm border border-[#eceae4] text-muted hover:text-white hover:bg-charcoal transition-all duration-300 cursor-pointer group"
                   >
-                    <GithubIcon size={16} />
+                    <div className="transition-all duration-300 group-hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.9)] group-hover:scale-110">
+                      <GithubIcon size={16} />
+                    </div>
                   </a>
                 )}
               </div>

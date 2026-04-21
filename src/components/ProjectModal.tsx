@@ -191,10 +191,12 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
                           href={project.githubUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="btn-primary flex-1 inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-base cursor-pointer shadow-xl shadow-charcoal/5"
+                          className="btn-primary flex-1 inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-base cursor-pointer shadow-xl shadow-charcoal/5 group"
                         >
-                          <GithubIcon size={20} />
-                          Source Code
+                          <div className="transition-all duration-300 group-hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)] group-hover:scale-110 flex items-center gap-2">
+                            <GithubIcon size={20} />
+                            <span>Source Code</span>
+                          </div>
                         </a>
                       )}
                       <button

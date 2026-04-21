@@ -112,15 +112,16 @@ export const projects: Project[] = [
   {
     title: "Stockas",
     description:
-      "Backend-focused system project built with MVC and CQRS architecture, emphasizing maintainability, scalability, and clean code structure.",
-    tech: [".NET", "MediatR", "FluentValidation", "CQRS"],
+      "Inventory and financial management system designed to streamline business operations through real-time stock monitoring and precise transaction tracking.",
+    tech: [".NET", "ASP.NET Core", "CQRS", "MediatR", "FluentValidation"],
     image: "/stockas/stockas1.png",
     period: "Mar 2025 – Apr 2025",
     highlights: [
-      "MVC and CQRS architecture",
-      "MediatR and FluentValidation implementation",
-      "Scalable backend design",
-      "Clean code and maintainability focus",
+      "Architected backend using CQRS and MediatR patterns to ensure a clean, decoupled, and highly maintainable codebase",
+      "Developed an analytical dashboard featuring dynamic data visualization for real-time monitoring of KPIs and financial trends",
+      "Engineered a robust transaction engine to meticulously track income and expenses with automated data validation",
+      "Implemented advanced inventory management modules for efficient data handling and real-time stock alerts",
+      "Ensured rigorous data integrity and security by leveraging FluentValidation and clean architecture principles",
     ],
     githubUrl: "https://github.com/zakirvndi/stockas",
     screenshots: ["/stockas/stockas1.png", "/stockas/stockas2.png", "/stockas/stockas3.png"],
